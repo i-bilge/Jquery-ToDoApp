@@ -1,0 +1,76 @@
+body {
+    background: #cccccc;
+}
+
+#main{
+    padding: 20px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: white;
+    border-radius: 5px;
+}
+
+#top{
+    text-align: center;
+}
+
+#todoList{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#todo{
+    text-decoration: underline;
+    font-size: 24px;
+    text-align: center;
+    flex:1;
+    
+}
+
+#done{
+    text-decoration: underline;
+    font-size: 24px;
+    text-align: center;
+    flex:1;
+}
+
+input{
+    padding: 4px 15px 4px 5px;
+}
+
+#button{
+    display: inline-block;
+    background-color:#0068a5;
+    color:#ffffff;
+    border-radius: 5px;
+    text-align:center;
+    margin-top:2px;
+    padding: 5px 15px;
+}
+
+#button:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+
+ul{
+    list-style:none;
+}
+
+li {
+    padding: 5px;color:#000; 
+    left:100px; 
+    position:relative;
+    width:200px;
+    font-size: 24px;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+li:hover{
+    cursor: pointer;
+}
